@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int		ft_str_is_printable(char *str);
+
+int		main()
+{
+	printf("%d\n", ft_str_is_printable("213asdar353"));
+	printf("%d\n", ft_str_is_printable("asdad\v"));
+}
